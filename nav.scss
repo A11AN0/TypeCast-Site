@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+$primary-red: #e63946;
+$primary-white: #f5f5f5;
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.mainNav {
+    background-color: $primary-red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+
+    &__container {
+        background-color: $primary-red;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+        width: 1600px;
+
+        &__logo {
+            padding: 10px;
+            display: flex;
+            margin: 0 0 0 30px;
+
+            &__svg {
+                transform: rotate(180deg);
+                width: 60px;
+                height: 60px;
+                fill: $primary-white;
+                transition: width 0.3s ease, height 0.3s ease;
+            }
+
+            &__name {
+                margin-left: 5px;
+                font-size: 50px;
+                font-weight: 200;
+                display: flex;
+                align-items: center;
+                font-family: "Roboto", sans-serif;
+                color: $primary-white;
+                transition: font-size 0.3s ease;
+            }
+        }
+
+        &__desktopMenu {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+            gap: 80px;
+            margin-right: 30px;
+
+            &__button {
+                color: $primary-white;
+                font-family: "Roboto Mono", sans-serif;
+                font-weight: 400;
+                font-size: 22px;
+                text-align: center;
+                height: 50%;
+                transition: font-size 0.3s ease;
+            }
+        }
+    }
+
+    @media (max-width: 1080px) {
+        &__container {
+            width: 100%;
+            height: 90px;
+
+            &__logo {
+                &__svg {
+                    width: 50px;
+                    height: 50px;
+                }
+
+                &__name {
+                    font-size: 40px;
+                }
+            }
+
+            &__desktopMenu {
+                gap: 40px; // Reduced gap at around 900px
+                &__button {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 850px) {
+        &__container {
+            height: 80px;
+
+            &__logo {
+                &__svg {
+                    width: 40px;
+                    height: 40px;
+                }
+
+                &__name {
+                    font-size: 30px;
+                }
+            }
+
+            &__desktopMenu {
+                gap: 30px; // Reduced gap at 768px
+                &__button {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 720px) {
+        &__container {
+            flex-direction: column;
+            height: auto;
+            padding: 10px;
+
+            &__logo {
+                margin: 0 auto 10px;
+            }
+
+            &__desktopMenu {
+                margin-right: 0;
+                width: 100%;
+                gap: 30px;
+                &__button {
+                    font-size: 16px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 480px) {
+        &__container {
+            flex-direction: column;
+            height: 100vh;
+            justify-content: flex-start;
+            padding: 10px;
+
+            &__logo {
+                margin: 0 auto 20px;
+            }
+
+            &__desktopMenu {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 00px;
+
+                &__button {
+                    font-size: 20px;
+                    text-align: center;
+                    width: 100%;
+                    padding: 20px 0;
+                }
+            }
+        }
+    }
+}
