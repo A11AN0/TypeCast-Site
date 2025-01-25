@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
 $primary-red: #e63946;
 $primary-white: #f5f5f5;
 
@@ -14,6 +15,7 @@ body {
     justify-content: center;
     align-items: center;
     height: fit-content;
+    min-width: 300px;
 
     &__container {
         background-color: $primary-red;
@@ -46,6 +48,41 @@ body {
                 color: $primary-white;
                 transition: font-size 0.3s ease;
             }
+
+            &__burger {
+                display: none;
+
+                @media (max-width: 480px) {
+                    display: block;
+                    cursor: pointer;
+                    position: relative;
+                    left: 20%;
+                    transition: all 0.2s ease-in-out;
+
+                    &__line {
+                        width: 50px;
+                        height: 3px;
+                        background-color: $primary-white;
+                        display: block;
+                        margin: 10px auto;
+                        transition: all 0.3s ease-in-out;
+                    }
+
+                    &.is-active {
+                        .mainNav__container__logo__burger__line:nth-child(2) {
+                            opacity: 0;
+                        }
+
+                        .mainNav__container__logo__burger__line:nth-child(1) {
+                            transform: translateY(13px) rotate(45deg);
+                        }
+
+                        .mainNav__container__logo__burger__line:nth-child(3) {
+                            transform: translateY(-13px) rotate(-45deg);
+                        }
+                    }
+                }
+            }
         }
 
         &__desktopMenu {
@@ -63,6 +100,24 @@ body {
                 text-align: center;
                 height: 50%;
                 transition: font-size 0.3s ease;
+            }
+
+            @media (max-width: 480px) {
+                display: none;
+                flex-direction: column;
+                align-items: center;
+                gap: 0;
+
+                &.is-open {
+                    display: flex;
+                }
+
+                &__button {
+                    font-size: 20px;
+                    text-align: center;
+                    width: 100%;
+                    padding: 20px 0;
+                }
             }
         }
     }
@@ -84,7 +139,8 @@ body {
             }
 
             &__desktopMenu {
-                gap: 40px; // Reduced gap at around 900px
+                gap: 40px;
+
                 &__button {
                     font-size: 20px;
                 }
@@ -108,7 +164,8 @@ body {
             }
 
             &__desktopMenu {
-                gap: 30px; // Reduced gap at 768px
+                gap: 30px;
+
                 &__button {
                     font-size: 18px;
                 }
@@ -130,6 +187,7 @@ body {
                 margin-right: 0;
                 width: 100%;
                 gap: 30px;
+
                 &__button {
                     font-size: 16px;
                     text-align: center;
@@ -141,25 +199,70 @@ body {
     @media (max-width: 480px) {
         &__container {
             flex-direction: column;
-            height: 100vh;
+            min-height: fit-content;
             justify-content: flex-start;
             padding: 10px;
 
+            &--expanded {
+                height: 100vh;
+            }
+
             &__logo {
                 margin: 0 auto 20px;
+
+                &__svg {
+                    width: 45px;
+                    height: 45px;
+                }
+
+                &__name {
+                    font-size: 35px;
+                }
             }
 
             &__desktopMenu {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                gap: 00px;
-
                 &__button {
                     font-size: 20px;
-                    text-align: center;
-                    width: 100%;
-                    padding: 20px 0;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 450px) {
+        &__container {
+            &__logo {
+                &__burger {
+                    left: 15%;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 400px) {
+        &__container {
+            &__logo {
+                &__burger {
+                    left: 12%;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 350px) {
+        &__container {
+            &__logo {
+                &__burger {
+                    left: 8%;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 320px) {
+        &__container {
+            &__logo {
+                &__burger {
+                    left: 5%;
                 }
             }
         }
