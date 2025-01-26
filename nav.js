@@ -6,7 +6,6 @@ const currentPath = window.location.pathname;
 const burger = document.querySelector(".mainNav__container__logo__burger");
 const desktopMenu = document.querySelector(".mainNav__container__desktopMenu");
 const navContainer = document.querySelector(".mainNav__container");
-const logo = document.querySelector(".mainNav__container__logo");
 
 burger.addEventListener("click", () => {
     burger.classList.toggle("is-active");
@@ -34,6 +33,13 @@ buttons.forEach((button, index) => {
     });
 });
 
+const logo = document.querySelector(".mainNav__container__logo__name");
+const svg = document.querySelector(".mainNav__container__logo__svg");
+
 logo.addEventListener("click", () => {
+    window.location.href = "/";
+});
+
+svg.addEventListener("click", () => {
     window.location.href = "/";
 });
