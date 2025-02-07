@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+$primary-red: #e63946;
+$primary-white: #f5f5f5;
+$primary-blue: #264653;
+$secondary-blue: #8ecae6;
+$secondary-yellow: #ffb703;
+
+body {
+    background-color: $primary-blue;
+}
+
+.types {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+    min-height: 600px;
+    align-items: stretch;
+
+    &__functional {
+        width: 35%;
+
+        &__title {
+            display: flex;
+            justify-content: flex-start;
+            width: 100%;
+
+            @media (max-width: 720px) {
+                justify-content: center;
+            }
+
+            &__card {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: $primary-white;
+                width: fit-content;
+                font-family: "Roboto Mono", sans-serif;
+                background-color: $primary-blue;
+                font-weight: 400;
+                font-size: 55px;
+                border: 3px solid $primary-white;
+                border-radius: 10px;
+                padding: 0.2em;
+                margin: 0.2em;
+
+                @media (max-width: 720px) {
+                    width: 95%;
+                    margin: 0.2em 0 0.2em 0;
+                    padding: 0.2em 0 0.2em 0;
+                    text-align: center;
+                    font-size: 30px;
+                }
+
+                @media (max-width: 480px) {
+                    font-size: 23px;
+                }
+            }
+        }
+    }
+
+    &__information {
+        width: 65%;
+        // background-color: $secondary-yellow;
+
+        &__noSelection {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &__card {
+                display: flex;
+                width: 90%;
+                height: 90%;
+                justify-content: center;
+                align-items: center;
+                border: 3px solid $primary-white;
+                border-radius: 10px;
+
+                &__text {
+                    width: 70%;
+                    color: $primary-white;
+                    font-family: "Roboto Mono", sans-serif;
+                    font-size: 25px;
+
+                    @media (max-width: 850px) {
+                        font-size: 23px;
+                    }
+
+                    @media (max-width: 720px) {
+                        font-size: 21px;
+                    }
+
+                    @media (max-width: 480px) {
+                        font-size: 17px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1080px) {
+    .types {
+        margin-top: 90px;
+
+        &__functional {
+            width: 40%;
+        }
+
+        &__information {
+            width: 60%;
+        }
+    }
+}
+
+@media (max-width: 850px) {
+    .types {
+        margin-top: 80px;
+
+        &__functional {
+            width: 42.5%;
+        }
+
+        &__information {
+            width: 57.5%;
+        }
+    }
+}
+
+@media (max-width: 720px) {
+    .types {
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 130px;
+
+        &__functional {
+            min-height: 200px;
+            width: 100%;
+        }
+
+        &__information {
+            min-height: 400px;
+            width: 100%;
+            // background-color: $secondary-blue;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .types {
+        margin-top: 109px;
+    }
+}
+
+$type-colors: (
+    normal: #a8a77a,
+    fire: #ee8130,
+    water: #6390f0,
+    electric: #f7d02c,
+    grass: #7ac74c,
+    ice: #96d9d6,
+    fighting: #c22e28,
+    poison: #a33ea1,
+    ground: #e2bf65,
+    flying: #a98ff3,
+    psychic: #f95587,
+    bug: #a6b91a,
+    rock: #b6a136,
+    ghost: #735797,
+    dragon: #6f35fc,
+    dark: #705746,
+    steel: #b7b7ce,
+    fairy: #d685ad,
+);
+
+.types__functional__type-selector__buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.types__functional__type-selector__button {
+    padding: 10px;
+    border: 3px solid transparent;
+    border-radius: 8px;
+    font-family: "Roboto Mono", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    scroll-snap-align: center;
+}
+
+.types__functional__type-selector__button--selected {
+    border: 3px solid $primary-white;
+}
+
+.types__functional__type-selector__buttons.scrolling {
+    border-top-color: $primary-white;
+    border-bottom-color: $primary-white;
+}
+
+@each $type, $color in $type-colors {
+    .types__functional__type-selector__button--#{$type} {
+        background-color: $color;
+        color: if(lightness($color) > 50, $primary-blue, $primary-white);
+    }
+}
+
+.types__functional__type-selector__button:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 720px) {
+    .types__functional__type-selector__buttons {
+        margin-top: 1em;
+        display: flex;
+        overflow-x: auto;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .types__functional__type-selector__button {
+        min-width: 120px;
+        flex-shrink: 0;
+    }
+}
