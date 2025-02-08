@@ -8,19 +8,19 @@
             {
                 "dex": "0084",
                 "name": "Dodrio",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041821/Dodrio_qb9c5i.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041821/Dodrio_qb9c5i.png",
                 "types": ["Normal", "Flying"]
             },
             {
                 "dex": "0773",
                 "name": "Silvally",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041848/Silvally_n7pvtm.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041848/Silvally_n7pvtm.png",
                 "types": ["Normal"]
             },
             {
                 "dex": "0217",
                 "name": "Ursaring",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041849/Ursaring_opqla6.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041849/Ursaring_opqla6.png",
                 "types": ["Normal"]
             }
         ]
@@ -34,19 +34,19 @@
             {
                 "dex": "004",
                 "name": "Charmander",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041812/Charmander_d8yga5.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041812/Charmander_d8yga5.png",
                 "types": ["Fire"]
             },
             {
                 "dex": "155",
                 "name": "Cyndaquil",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041819/Cyndaquil_g9xvff.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041819/Cyndaquil_g9xvff.png",
                 "types": ["Fire"]
             },
             {
                 "dex": "390",
                 "name": "Chimchar",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041813/Chimchar_nnepiv.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041813/Chimchar_nnepiv.png",
                 "types": ["Fire"]
             }
         ]
@@ -60,19 +60,19 @@
             {
                 "dex": "0581",
                 "name": "Swanna",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041848/Swanna_g0dd0m.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041848/Swanna_g0dd0m.png",
                 "types": ["Water", "Flying"]
             },
             {
                 "dex": "0350",
                 "name": "Milotic",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041840/Milotic_kv4ybw.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041840/Milotic_kv4ybw.png",
                 "types": ["Water"]
             },
             {
                 "dex": "0271",
                 "name": "Lombre",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041830/Lombre_cryvlg.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041830/Lombre_cryvlg.png",
                 "types": ["Water", "Grass"]
             }
         ]
@@ -86,19 +86,19 @@
             {
                 "dex": "025",
                 "name": "Pikachu",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041841/Pikachu_bohwri.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041841/Pikachu_bohwri.png",
                 "types": ["Electric"]
             },
             {
                 "dex": "100",
                 "name": "Voltorb",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041855/Voltorb_a8htyi.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041855/Voltorb_a8htyi.png",
                 "types": ["Electric"]
             },
             {
                 "dex": "309",
                 "name": "Electrike",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041821/Electrike_qrbcwd.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041821/Electrike_qrbcwd.png",
                 "types": ["Electric"]
             }
         ]
@@ -112,7 +112,7 @@
             {
                 "dex": "0497",
                 "name": "Serperior",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041848/Serperior_bopc9q.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041848/Serperior_bopc9q.png",
                 "types": ["Grass"]
             },
             {
@@ -124,7 +124,7 @@
             {
                 "dex": "0251",
                 "name": "Celebi",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041812/Celebi_ywdftx.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041812/Celebi_ywdftx.png",
                 "types": ["Grass", "Psychic"]
             }
         ]
@@ -138,19 +138,19 @@
             {
                 "dex": "087",
                 "name": "Dewgong",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041815/Dewgong_idsaoj.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041815/Dewgong_idsaoj.png",
                 "types": ["Water", "Ice"]
             },
             {
                 "dex": "225",
                 "name": "Delibird",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041817/Delibird_vsmubo.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041817/Delibird_vsmubo.png",
                 "types": ["Ice", "Flying"]
             },
             {
                 "dex": "361",
                 "name": "Snorunt",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041849/Snorunt_u43hgv.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041849/Snorunt_u43hgv.png",
                 "types": ["Ice"]
             }
         ]
@@ -164,19 +164,19 @@
             {
                 "dex": "056",
                 "name": "Mankey",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041835/Mankey_wvbave.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041835/Mankey_wvbave.png",
                 "types": ["Fighting"]
             },
             {
                 "dex": "066",
                 "name": "Machop",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041836/Machop_puswfi.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041836/Machop_puswfi.png",
                 "types": ["Fighting"]
             },
             {
                 "dex": "447",
                 "name": "Riolu",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041846/Riolu_u089gh.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041846/Riolu_u089gh.png",
                 "types": ["Fighting"]
             }
         ]
@@ -190,19 +190,19 @@
             {
                 "dex": "023",
                 "name": "Ekans",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041820/Ekans_qqxiox.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041820/Ekans_qqxiox.png",
                 "types": ["Poison"]
             },
             {
                 "dex": "088",
                 "name": "Grimer",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041823/Grimer_v1cdr1.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041823/Grimer_v1cdr1.png",
                 "types": ["Poison"]
             },
             {
                 "dex": "109",
                 "name": "Koffing",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041825/Koffing_lhwcvj.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041825/Koffing_lhwcvj.png",
                 "types": ["Poison"]
             }
         ]
@@ -216,19 +216,19 @@
             {
                 "dex": "027",
                 "name": "Sandshrew",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041847/Sandshrew_rnsln9.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041847/Sandshrew_rnsln9.png",
                 "types": ["Ground"]
             },
             {
                 "dex": "231",
                 "name": "Phanpy",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041837/Phanpy_dgw5hc.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041837/Phanpy_dgw5hc.png",
                 "types": ["Ground"]
             },
             {
                 "dex": "449",
                 "name": "Hippopotas",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041824/Hippopotas_fflalr.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041824/Hippopotas_fflalr.png",
                 "types": ["Ground"]
             }
         ]
@@ -242,19 +242,19 @@
             {
                 "dex": "016",
                 "name": "Pidgey",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041838/Pidgey_hih3ka.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041838/Pidgey_hih3ka.png",
                 "types": ["Normal", "Flying"]
             },
             {
                 "dex": "278",
                 "name": "Wingull",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041850/Wingull_omiuwe.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041850/Wingull_omiuwe.png",
                 "types": ["Water", "Flying"]
             },
             {
                 "dex": "627",
                 "name": "Rufflet",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041844/Rufflet_bywoid.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041844/Rufflet_bywoid.png",
                 "types": ["Normal", "Flying"]
             }
         ]
@@ -268,19 +268,19 @@
             {
                 "dex": "150",
                 "name": "Mewtwo",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041835/Mewtwo_hkdfeb.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041835/Mewtwo_hkdfeb.png",
                 "types": ["Psychic"]
             },
             {
                 "dex": "386",
                 "name": "Deoxys",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041820/Deoxys_lzm6vc.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041820/Deoxys_lzm6vc.png",
                 "types": ["Psychic"]
             },
             {
                 "dex": "282",
                 "name": "Gardevoir",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041823/Gardevoir_z0apzt.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041823/Gardevoir_z0apzt.png",
                 "types": ["Psychic", "Fairy"]
             }
         ]
@@ -300,13 +300,13 @@
             {
                 "dex": "265",
                 "name": "Wurmple",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041854/Wurmple_jv2ygb.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041854/Wurmple_jv2ygb.png",
                 "types": ["Bug"]
             },
             {
                 "dex": "401",
                 "name": "Kricketot",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041826/Kricketot_jbsfl7.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041826/Kricketot_jbsfl7.png",
                 "types": ["Bug"]
             }
         ]
@@ -320,19 +320,19 @@
             {
                 "dex": "074",
                 "name": "Geodude",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041823/Geodude_cyyzx8.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041823/Geodude_cyyzx8.png",
                 "types": ["Rock", "Ground"]
             },
             {
                 "dex": "138",
                 "name": "Omanyte",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041837/Omanyte_qc6uvg.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041837/Omanyte_qc6uvg.png",
                 "types": ["Rock", "Water"]
             },
             {
                 "dex": "246",
                 "name": "Larvitar",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041829/Larvitar_hcuskd.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041829/Larvitar_hcuskd.png",
                 "types": ["Rock", "Ground"]
             }
         ]
@@ -346,19 +346,19 @@
             {
                 "dex": "092",
                 "name": "Gastly",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041822/Gastly_rvk0wu.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041822/Gastly_rvk0wu.png",
                 "types": ["Ghost", "Poison"]
             },
             {
                 "dex": "200",
                 "name": "Misdreavus",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041835/Misdreavus_afj3r5.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041835/Misdreavus_afj3r5.png",
                 "types": ["Ghost"]
             },
             {
                 "dex": "425",
                 "name": "Drifloon",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041820/Drifloon_ue4vy1.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041820/Drifloon_ue4vy1.png",
                 "types": ["Ghost", "Flying"]
             }
         ]
@@ -372,7 +372,7 @@
             {
                 "dex": "147",
                 "name": "Dratini",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041819/Dratini_r7vseu.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041819/Dratini_r7vseu.png",
                 "types": ["Dragon"]
             },
             {
@@ -384,7 +384,7 @@
             {
                 "dex": "443",
                 "name": "Gible",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041823/Gible_jrkl2l.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041823/Gible_jrkl2l.png",
                 "types": ["Dragon", "Ground"]
             }
         ]
@@ -398,19 +398,19 @@
             {
                 "dex": "198",
                 "name": "Murkrow",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041836/Murkrow_i22xxk.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041836/Murkrow_i22xxk.png",
                 "types": ["Dark", "Flying"]
             },
             {
                 "dex": "228",
                 "name": "Houndour",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041828/Houndour_acz5zo.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041828/Houndour_acz5zo.png",
                 "types": ["Dark", "Fire"]
             },
             {
                 "dex": "261",
                 "name": "Poochyena",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041843/Poochyena_fg47yx.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041843/Poochyena_fg47yx.png",
                 "types": ["Dark"]
             }
         ]
@@ -424,13 +424,13 @@
             {
                 "dex": "081",
                 "name": "Magnemite",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041834/Magnemite_ajee2h.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041834/Magnemite_ajee2h.png",
                 "types": ["Electric", "Steel"]
             },
             {
                 "dex": "205",
                 "name": "Forretress",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041822/Forretress_c2lv3w.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041822/Forretress_c2lv3w.png",
                 "types": ["Bug", "Steel"]
             },
             {
@@ -450,19 +450,19 @@
             {
                 "dex": "035",
                 "name": "Clefairy",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041820/Clefairy_wdfn0q.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041820/Clefairy_wdfn0q.png",
                 "types": ["Fairy"]
             },
             {
                 "dex": "173",
                 "name": "Cleffa",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041814/Cleffa_j6trrw.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041814/Cleffa_j6trrw.png",
                 "types": ["Fairy"]
             },
             {
                 "dex": "280",
                 "name": "Ralts",
-                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041842/Ralts_yzdrhv.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041842/Ralts_yzdrhv.png",
                 "types": ["Psychic", "Fairy"]
             }
         ]
