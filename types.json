@@ -1,0 +1,470 @@
+{
+    "normal": {
+        "background": "#A8A77A",
+        "textColor": "#264653",
+        "paragraph1": "Normal-type Pokémon represent versatility and adaptability, reflecting the everyday creatures found in the natural world. Their designs often resemble common animals, emphasizing simplicity, balance, and the fundamental aspects of life without elemental powers.",
+        "paragraph2": "With moves like Hyper Beam and Body Slam, Normal types showcase strength through straightforward, physical techniques. They symbolize flexibility and potential, often surprising trainers with unexpected abilities despite their seemingly plain nature.",
+        "pokemon": [
+            {
+                "dex": "0084",
+                "name": "Dodrio",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041821/Dodrio_qb9c5i.png",
+                "types": ["Normal", "Flying"]
+            },
+            {
+                "dex": "0773",
+                "name": "Silvally",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041848/Silvally_n7pvtm.png",
+                "types": ["Normal"]
+            },
+            {
+                "dex": "0217",
+                "name": "Ursaring",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041849/Ursaring_opqla6.png",
+                "types": ["Normal"]
+            }
+        ]
+    },
+    "fire": {
+        "background": "#EE8130",
+        "textColor": "#F5F5F5",
+        "paragraph1": "Fire-type Pokémon embody the fierce and unpredictable power of flames, drawing inspiration from volcanoes, mythical creatures, and the energy of the sun. Their designs often feature bold colors, representing passion, courage, and intense determination.",
+        "paragraph2": "With moves like Flamethrower and Fire Blast, Fire types unleash destructive heat, overwhelming opponents with relentless force. They symbolize transformation and renewal, burning away the old to make way for growth and new beginnings.",
+        "pokemon": [
+            {
+                "dex": "004",
+                "name": "Charmander",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041812/Charmander_d8yga5.png",
+                "types": ["Fire"]
+            },
+            {
+                "dex": "155",
+                "name": "Cyndaquil",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041819/Cyndaquil_g9xvff.png",
+                "types": ["Fire"]
+            },
+            {
+                "dex": "390",
+                "name": "Chimchar",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041813/Chimchar_nnepiv.png",
+                "types": ["Fire"]
+            }
+        ]
+    },
+    "water": {
+        "background": "#6390F0",
+        "textColor": "#F5F5F5",
+        "paragraph1": "Water-type Pokémon reflect the beauty and power of water, from calm lakes crashing beach waves. Their designs often take inspiration from marine life and the vibrant coastal environments.",
+        "paragraph2": "With moves like Hydro Pump and Surf, Water types demonstrate the adaptability and strength of water in battle. They symbolize transformation, resilience, and the essential role water plays in sustaining life, making them a key part of the Pokémon world.",
+        "pokemon": [
+            {
+                "dex": "0581",
+                "name": "Swanna",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041848/Swanna_g0dd0m.png",
+                "types": ["Water", "Flying"]
+            },
+            {
+                "dex": "0350",
+                "name": "Milotic",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041840/Milotic_kv4ybw.png",
+                "types": ["Water"]
+            },
+            {
+                "dex": "0271",
+                "name": "Lombre",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041830/Lombre_cryvlg.png",
+                "types": ["Water", "Grass"]
+            }
+        ]
+    },
+    "electric": {
+        "background": "#F7D02C",
+        "textColor": "#264653",
+        "paragraph1": "Electric-type Pokémon channel the energy of lightning and static electricity, inspired by natural storms and electrically charged creatures. Their designs often highlight bright colors and dynamic features, symbolizing speed, innovation, and raw power.",
+        "paragraph2": "With moves like Thunderbolt and Volt Tackle, Electric types deliver quick, powerful attacks that stun opponents. They represent the unpredictable nature of energy, capable of both creation and destruction in an instant.",
+        "pokemon": [
+            {
+                "dex": "025",
+                "name": "Pikachu",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041841/Pikachu_bohwri.png",
+                "types": ["Electric"]
+            },
+            {
+                "dex": "100",
+                "name": "Voltorb",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041855/Voltorb_a8htyi.png",
+                "types": ["Electric"]
+            },
+            {
+                "dex": "309",
+                "name": "Electrike",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041821/Electrike_qrbcwd.png",
+                "types": ["Electric"]
+            }
+        ]
+    },
+    "grass": {
+        "background": "#7AC74C",
+        "textColor": "#264653",
+        "paragraph1": "Grass-type Pokémon embody the essence of nature and growth. Their designs often draw from plants, flowers, and trees, showcasing the healing and nurturing power of greenery.",
+        "paragraph2": "With moves like Vine Whip and Solar Beam, Grass types harness the energy of the sun and the earth to battle. They often represent resilience and connection to the natural world, reminding us of the vital role plants play in ecosystems and the balance of life.",
+        "pokemon": [
+            {
+                "dex": "0497",
+                "name": "Serperior",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041848/Serperior_bopc9q.png",
+                "types": ["Grass"]
+            },
+            {
+                "dex": "0286",
+                "name": "Breloom",
+                "image": "./images/breloom.png",
+                "types": ["Grass", "Fighting"]
+            },
+            {
+                "dex": "0251",
+                "name": "Celebi",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041812/Celebi_ywdftx.png",
+                "types": ["Grass", "Psychic"]
+            }
+        ]
+    },
+    "ice": {
+        "background": "#96D9D6",
+        "textColor": "#264653",
+        "paragraph1": "Ice-type Pokémon represent the cold beauty of frozen landscapes, from snow-capped mountains to glacial tundras. Their designs often feature icy textures and wintry motifs, reflecting themes of isolation, purity, and resilience against harsh conditions.",
+        "paragraph2": "With moves like Ice Beam and Blizzard, Ice types freeze their foes in battle, controlling the environment with chilling precision. They symbolize endurance, the ability to thrive in adversity, and the quiet strength found in stillness.",
+        "pokemon": [
+            {
+                "dex": "087",
+                "name": "Dewgong",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041815/Dewgong_idsaoj.png",
+                "types": ["Water", "Ice"]
+            },
+            {
+                "dex": "225",
+                "name": "Delibird",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041817/Delibird_vsmubo.png",
+                "types": ["Ice", "Flying"]
+            },
+            {
+                "dex": "361",
+                "name": "Snorunt",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041849/Snorunt_u43hgv.png",
+                "types": ["Ice"]
+            }
+        ]
+    },
+    "fighting": {
+        "background": "#C22E28",
+        "textColor": "#F5F5F5",
+        "paragraph1": "Fighting-type Pokémon showcase physical prowess, martial arts, and the discipline of combat. Their designs often draw from real-world fighters, representing strength, determination, and the relentless pursuit of personal growth through training.",
+        "paragraph2": "With moves like Close Combat and Dynamic Punch, Fighting types rely on raw power and skill to overwhelm opponents. They symbolize perseverance, courage in the face of challenges, and the spirit of never giving up.",
+        "pokemon": [
+            {
+                "dex": "056",
+                "name": "Mankey",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041835/Mankey_wvbave.png",
+                "types": ["Fighting"]
+            },
+            {
+                "dex": "066",
+                "name": "Machop",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041836/Machop_puswfi.png",
+                "types": ["Fighting"]
+            },
+            {
+                "dex": "447",
+                "name": "Riolu",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041846/Riolu_u089gh.png",
+                "types": ["Fighting"]
+            }
+        ]
+    },
+    "poison": {
+        "background": "#A33EA1",
+        "textColor": "#F5F5F5",
+        "paragraph1": "Poison-type Pokémon embody toxicity and danger, inspired by venomous creatures and chemical substances. Their designs often feature dark, eerie colors, representing decay, stealth, and the ability to control environments through subtle threats.",
+        "paragraph2": "With moves like Sludge Bomb and Toxic, Poison types weaken opponents over time, wearing them down strategically. They symbolize the hidden power of small changes and the quiet, often overlooked forces that influence life.",
+        "pokemon": [
+            {
+                "dex": "023",
+                "name": "Ekans",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041820/Ekans_qqxiox.png",
+                "types": ["Poison"]
+            },
+            {
+                "dex": "088",
+                "name": "Grimer",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041823/Grimer_v1cdr1.png",
+                "types": ["Poison"]
+            },
+            {
+                "dex": "109",
+                "name": "Koffing",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041825/Koffing_lhwcvj.png",
+                "types": ["Poison"]
+            }
+        ]
+    },
+    "ground": {
+        "background": "#E2BF65",
+        "textColor": "#264653",
+        "paragraph1": "Ground-type Pokémon are connected to the earth’s foundation, drawing from deserts, mountains, and tectonic power. Their designs often feature rugged, earthy tones, symbolizing stability, resilience, and the raw strength of the natural world.",
+        "paragraph2": "With moves like Earthquake and Mud Shot, Ground types manipulate the terrain to dominate battles. They represent endurance, the power of patience, and the ability to shape destinies through steady, unwavering force.",
+        "pokemon": [
+            {
+                "dex": "027",
+                "name": "Sandshrew",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041847/Sandshrew_rnsln9.png",
+                "types": ["Ground"]
+            },
+            {
+                "dex": "231",
+                "name": "Phanpy",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041837/Phanpy_dgw5hc.png",
+                "types": ["Ground"]
+            },
+            {
+                "dex": "449",
+                "name": "Hippopotas",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041824/Hippopotas_fflalr.png",
+                "types": ["Ground"]
+            }
+        ]
+    },
+    "flying": {
+        "background": "#A98FF3",
+        "textColor": "#F5F5F5",
+        "paragraph1": "Flying-type Pokémon embody freedom and agility, inspired by birds, insects, and creatures that soar through the skies. Their designs often showcase wings and lightweight forms, symbolizing grace, speed, and boundless exploration.",
+        "paragraph2": "With moves like Aerial Ace and Hurricane, Flying types dominate the battlefield from above. They represent the spirit of adventure, the thrill of discovery, and the endless possibilities that come with rising above challenges.",
+        "pokemon": [
+            {
+                "dex": "016",
+                "name": "Pidgey",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041838/Pidgey_hih3ka.png",
+                "types": ["Normal", "Flying"]
+            },
+            {
+                "dex": "278",
+                "name": "Wingull",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041850/Wingull_omiuwe.png",
+                "types": ["Water", "Flying"]
+            },
+            {
+                "dex": "627",
+                "name": "Rufflet",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041844/Rufflet_bywoid.png",
+                "types": ["Normal", "Flying"]
+            }
+        ]
+    },
+    "psychic": {
+        "background": "#F95587",
+        "textColor": "#264653",
+        "paragraph1": "Psychic-type Pokémon are often inspired by mysterious environments. Think of dimly lit tunnels, rooms bathed in glowing, colorful lights, or quiet, isolated spaces. These settings reflect the enigmatic and mind-focused nature of Psychic types.",
+        "paragraph2": "With moves like Psychic and Calm Mind, these Pokémon channel the energy of their surroundings to manipulate and outwit opponents. Their connection to dreamlike environments embodies their power to tap into the unseen and unexplained.",
+        "pokemon": [
+            {
+                "dex": "150",
+                "name": "Mewtwo",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041835/Mewtwo_hkdfeb.png",
+                "types": ["Psychic"]
+            },
+            {
+                "dex": "386",
+                "name": "Deoxys",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041820/Deoxys_lzm6vc.png",
+                "types": ["Psychic"]
+            },
+            {
+                "dex": "282",
+                "name": "Gardevoir",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041823/Gardevoir_z0apzt.png",
+                "types": ["Psychic", "Fairy"]
+            }
+        ]
+    },
+    "bug": {
+        "background": "#A6B91A",
+        "textColor": "#264653",
+        "paragraph1": "Bug-type Pokémon reflect the diversity and resilience of insects, often drawing inspiration from beetles, butterflies, and other arthropods. Their designs highlight adaptability, evolution, and the vital roles bugs play in ecosystems.",
+        "paragraph2": "With moves like Bug Buzz and X-Scissor, Bug types overwhelm opponents with quick, precise attacks. They symbolize growth, transformation, and the importance of even the smallest creatures in the balance of life.",
+        "pokemon": [
+            {
+                "dex": "010",
+                "name": "Caterpie",
+                "image": "./images/caterpie.png",
+                "types": ["Bug"]
+            },
+            {
+                "dex": "265",
+                "name": "Wurmple",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041854/Wurmple_jv2ygb.png",
+                "types": ["Bug"]
+            },
+            {
+                "dex": "401",
+                "name": "Kricketot",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041826/Kricketot_jbsfl7.png",
+                "types": ["Bug"]
+            }
+        ]
+    },
+    "rock": {
+        "background": "#B6A136",
+        "textColor": "#264653",
+        "paragraph1": "Rock-type Pokémon represent the enduring strength of stone and geological formations. Their designs often feature rugged, solid appearances, symbolizing durability, history, and the timeless power of the earth.",
+        "paragraph2": "With moves like Rock Slide and Stone Edge, Rock types unleash crushing force, dominating with sheer physical power. They symbolize perseverance, the passage of time, and the stability found in life’s foundations.",
+        "pokemon": [
+            {
+                "dex": "074",
+                "name": "Geodude",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041823/Geodude_cyyzx8.png",
+                "types": ["Rock", "Ground"]
+            },
+            {
+                "dex": "138",
+                "name": "Omanyte",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041837/Omanyte_qc6uvg.png",
+                "types": ["Rock", "Water"]
+            },
+            {
+                "dex": "246",
+                "name": "Larvitar",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041829/Larvitar_hcuskd.png",
+                "types": ["Rock", "Ground"]
+            }
+        ]
+    },
+    "ghost": {
+        "background": "#735797",
+        "textColor": "#F5F5F5",
+        "paragraph1": "Ghost-type Pokémon embody the supernatural, drawing from myths, spirits, and haunted folklore. Their designs often feature eerie, intangible elements, representing mystery, fear, and the unknown forces that linger beyond life.",
+        "paragraph2": "With moves like Shadow Ball and Hex, Ghost types manipulate fear and the unseen to disrupt opponents. They symbolize the thin veil between worlds, the power of the unknown, and the influence of unseen forces.",
+        "pokemon": [
+            {
+                "dex": "092",
+                "name": "Gastly",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041822/Gastly_rvk0wu.png",
+                "types": ["Ghost", "Poison"]
+            },
+            {
+                "dex": "200",
+                "name": "Misdreavus",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041835/Misdreavus_afj3r5.png",
+                "types": ["Ghost"]
+            },
+            {
+                "dex": "425",
+                "name": "Drifloon",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041820/Drifloon_ue4vy1.png",
+                "types": ["Ghost", "Flying"]
+            }
+        ]
+    },
+    "dragon": {
+        "background": "#6F35FC",
+        "textColor": "#F5F5F5",
+        "paragraph1": "Dragon-type Pokémon represent ancient power and mythical grandeur, inspired by legendary creatures from cultures worldwide. Their designs often feature majestic, serpent-like forms, symbolizing strength, wisdom, and untamed energy.",
+        "paragraph2": "With moves like Dragon Claw and Draco Meteor, Dragon types unleash devastating force, commanding respect and awe. They symbolize the pursuit of greatness, the mysteries of legends, and the boundless potential within.",
+        "pokemon": [
+            {
+                "dex": "147",
+                "name": "Dratini",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041819/Dratini_r7vseu.png",
+                "types": ["Dragon"]
+            },
+            {
+                "dex": "371",
+                "name": "Bagon",
+                "image": "./images/bagon.png",
+                "types": ["Dragon"]
+            },
+            {
+                "dex": "443",
+                "name": "Gible",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041823/Gible_jrkl2l.png",
+                "types": ["Dragon", "Ground"]
+            }
+        ]
+    },
+    "dark": {
+        "background": "#705746",
+        "textColor": "#F5F5F5",
+        "paragraph1": "Dark-type Pokémon embody cunning, strategy, and the shadows that exist beyond the light. Their designs often reflect themes of deception, trickery, and moral ambiguity, representing the complexity of both good and evil.",
+        "paragraph2": "With moves like Dark Pulse and Foul Play, Dark types use underhanded tactics to gain the upper hand. They symbolize adaptability, the blurred lines of morality, and the strength found in embracing one’s true nature.",
+        "pokemon": [
+            {
+                "dex": "198",
+                "name": "Murkrow",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041836/Murkrow_i22xxk.png",
+                "types": ["Dark", "Flying"]
+            },
+            {
+                "dex": "228",
+                "name": "Houndour",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041828/Houndour_acz5zo.png",
+                "types": ["Dark", "Fire"]
+            },
+            {
+                "dex": "261",
+                "name": "Poochyena",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041843/Poochyena_fg47yx.png",
+                "types": ["Dark"]
+            }
+        ]
+    },
+    "steel": {
+        "background": "#B7B7CE",
+        "textColor": "#264653",
+        "paragraph1": "Steel-type Pokémon reflect the strength and resilience of metal, often drawing inspiration from machinery, armor, and industrial advancements. Their designs symbolize durability, technological progress, and impenetrable defenses.",
+        "paragraph2": "With moves like Iron Head and Flash Cannon, Steel types showcase both offensive power and defensive prowess. They represent endurance, innovation, and the unyielding strength found in both nature and human ingenuity.",
+        "pokemon": [
+            {
+                "dex": "081",
+                "name": "Magnemite",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041834/Magnemite_ajee2h.png",
+                "types": ["Electric", "Steel"]
+            },
+            {
+                "dex": "205",
+                "name": "Forretress",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041822/Forretress_c2lv3w.png",
+                "types": ["Bug", "Steel"]
+            },
+            {
+                "dex": "374",
+                "name": "Beldum",
+                "image": "./images/beldum.png",
+                "types": ["Steel", "Psychic"]
+            }
+        ]
+    },
+    "fairy": {
+        "background": "#D685AD",
+        "textColor": "#264653",
+        "paragraph1": "Fairy-type Pokémon draw inspiration from myths, magical creatures, and folklore. Their designs often feature whimsical, enchanting elements, representing mystery, charm, and the power of belief in the extraordinary.",
+        "paragraph2": "With moves like Moonblast and Dazzling Gleam, Fairy types wield radiant energy to dazzle and defeat foes. They symbolize hope, the beauty of imagination, and the unseen forces that bring light to even the darkest places.",
+        "pokemon": [
+            {
+                "dex": "035",
+                "name": "Clefairy",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041820/Clefairy_wdfn0q.png",
+                "types": ["Fairy"]
+            },
+            {
+                "dex": "173",
+                "name": "Cleffa",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041814/Cleffa_j6trrw.png",
+                "types": ["Fairy"]
+            },
+            {
+                "dex": "280",
+                "name": "Ralts",
+                "image": "http://res.cloudinary.com/de7itmcoo/image/upload/v1739041842/Ralts_yzdrhv.png",
+                "types": ["Psychic", "Fairy"]
+            }
+        ]
+    }
+}
