@@ -26,7 +26,7 @@
 
     // Fetch type data
     const response = await fetch(
-        "https://cdn.jsdelivr.net/gh/A11AN0/TypeCast-Site@053ba54f0801a7d43054d209c264332e592c7b79/types.json",
+        "https://cdn.jsdelivr.net/gh/A11AN0/TypeCast-Site@0e65d339eb24d794980fa719106a1b9ad07caddf/types.json",
     );
     const typeData = await response.json();
 
