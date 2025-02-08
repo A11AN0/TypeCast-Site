@@ -32,19 +32,19 @@
         "paragraph2": "With moves like Flamethrower and Fire Blast, Fire types unleash destructive heat, overwhelming opponents with relentless force. They symbolize transformation and renewal, burning away the old to make way for growth and new beginnings.",
         "pokemon": [
             {
-                "dex": "004",
+                "dex": "0004",
                 "name": "Charmander",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041812/Charmander_d8yga5.png",
                 "types": ["Fire"]
             },
             {
-                "dex": "155",
+                "dex": "0155",
                 "name": "Cyndaquil",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041819/Cyndaquil_g9xvff.png",
                 "types": ["Fire"]
             },
             {
-                "dex": "390",
+                "dex": "0390",
                 "name": "Chimchar",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041813/Chimchar_nnepiv.png",
                 "types": ["Fire"]
@@ -84,19 +84,19 @@
         "paragraph2": "With moves like Thunderbolt and Volt Tackle, Electric types deliver quick, powerful attacks that stun opponents. They represent the unpredictable nature of energy, capable of both creation and destruction in an instant.",
         "pokemon": [
             {
-                "dex": "025",
+                "dex": "0025",
                 "name": "Pikachu",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041841/Pikachu_bohwri.png",
                 "types": ["Electric"]
             },
             {
-                "dex": "100",
+                "dex": "0100",
                 "name": "Voltorb",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041855/Voltorb_a8htyi.png",
                 "types": ["Electric"]
             },
             {
-                "dex": "309",
+                "dex": "0309",
                 "name": "Electrike",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041821/Electrike_qrbcwd.png",
                 "types": ["Electric"]
@@ -118,7 +118,7 @@
             {
                 "dex": "0286",
                 "name": "Breloom",
-                "image": "./images/breloom.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041813/Breloom_fyqn1o.png",
                 "types": ["Grass", "Fighting"]
             },
             {
@@ -136,19 +136,19 @@
         "paragraph2": "With moves like Ice Beam and Blizzard, Ice types freeze their foes in battle, controlling the environment with chilling precision. They symbolize endurance, the ability to thrive in adversity, and the quiet strength found in stillness.",
         "pokemon": [
             {
-                "dex": "087",
+                "dex": "0087",
                 "name": "Dewgong",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041815/Dewgong_idsaoj.png",
                 "types": ["Water", "Ice"]
             },
             {
-                "dex": "225",
+                "dex": "0225",
                 "name": "Delibird",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041817/Delibird_vsmubo.png",
                 "types": ["Ice", "Flying"]
             },
             {
-                "dex": "361",
+                "dex": "0361",
                 "name": "Snorunt",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041849/Snorunt_u43hgv.png",
                 "types": ["Ice"]
@@ -162,19 +162,19 @@
         "paragraph2": "With moves like Close Combat and Dynamic Punch, Fighting types rely on raw power and skill to overwhelm opponents. They symbolize perseverance, courage in the face of challenges, and the spirit of never giving up.",
         "pokemon": [
             {
-                "dex": "056",
+                "dex": "0056",
                 "name": "Mankey",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041835/Mankey_wvbave.png",
                 "types": ["Fighting"]
             },
             {
-                "dex": "066",
+                "dex": "0066",
                 "name": "Machop",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041836/Machop_puswfi.png",
                 "types": ["Fighting"]
             },
             {
-                "dex": "447",
+                "dex": "0447",
                 "name": "Riolu",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041846/Riolu_u089gh.png",
                 "types": ["Fighting"]
@@ -188,19 +188,19 @@
         "paragraph2": "With moves like Sludge Bomb and Toxic, Poison types weaken opponents over time, wearing them down strategically. They symbolize the hidden power of small changes and the quiet, often overlooked forces that influence life.",
         "pokemon": [
             {
-                "dex": "023",
+                "dex": "0023",
                 "name": "Ekans",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041820/Ekans_qqxiox.png",
                 "types": ["Poison"]
             },
             {
-                "dex": "088",
+                "dex": "0088",
                 "name": "Grimer",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041823/Grimer_v1cdr1.png",
                 "types": ["Poison"]
             },
             {
-                "dex": "109",
+                "dex": "0109",
                 "name": "Koffing",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041825/Koffing_lhwcvj.png",
                 "types": ["Poison"]
@@ -214,19 +214,19 @@
         "paragraph2": "With moves like Earthquake and Mud Shot, Ground types manipulate the terrain to dominate battles. They represent endurance, the power of patience, and the ability to shape destinies through steady, unwavering force.",
         "pokemon": [
             {
-                "dex": "027",
+                "dex": "0027",
                 "name": "Sandshrew",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041847/Sandshrew_rnsln9.png",
                 "types": ["Ground"]
             },
             {
-                "dex": "231",
+                "dex": "0231",
                 "name": "Phanpy",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041837/Phanpy_dgw5hc.png",
                 "types": ["Ground"]
             },
             {
-                "dex": "449",
+                "dex": "0449",
                 "name": "Hippopotas",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041824/Hippopotas_fflalr.png",
                 "types": ["Ground"]
@@ -240,19 +240,19 @@
         "paragraph2": "With moves like Aerial Ace and Hurricane, Flying types dominate the battlefield from above. They represent the spirit of adventure, the thrill of discovery, and the endless possibilities that come with rising above challenges.",
         "pokemon": [
             {
-                "dex": "016",
+                "dex": "0016",
                 "name": "Pidgey",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041838/Pidgey_hih3ka.png",
                 "types": ["Normal", "Flying"]
             },
             {
-                "dex": "278",
+                "dex": "0278",
                 "name": "Wingull",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041850/Wingull_omiuwe.png",
                 "types": ["Water", "Flying"]
             },
             {
-                "dex": "627",
+                "dex": "0627",
                 "name": "Rufflet",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041844/Rufflet_bywoid.png",
                 "types": ["Normal", "Flying"]
@@ -266,19 +266,19 @@
         "paragraph2": "With moves like Psychic and Calm Mind, these Pokémon channel the energy of their surroundings to manipulate and outwit opponents. Their connection to dreamlike environments embodies their power to tap into the unseen and unexplained.",
         "pokemon": [
             {
-                "dex": "150",
+                "dex": "0150",
                 "name": "Mewtwo",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041835/Mewtwo_hkdfeb.png",
                 "types": ["Psychic"]
             },
             {
-                "dex": "386",
+                "dex": "0386",
                 "name": "Deoxys",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041820/Deoxys_lzm6vc.png",
                 "types": ["Psychic"]
             },
             {
-                "dex": "282",
+                "dex": "0282",
                 "name": "Gardevoir",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041823/Gardevoir_z0apzt.png",
                 "types": ["Psychic", "Fairy"]
@@ -292,19 +292,19 @@
         "paragraph2": "With moves like Bug Buzz and X-Scissor, Bug types overwhelm opponents with quick, precise attacks. They symbolize growth, transformation, and the importance of even the smallest creatures in the balance of life.",
         "pokemon": [
             {
-                "dex": "010",
+                "dex": "0010",
                 "name": "Caterpie",
-                "image": "./images/caterpie.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041814/Caterpie_ynujcs.png",
                 "types": ["Bug"]
             },
             {
-                "dex": "265",
+                "dex": "0265",
                 "name": "Wurmple",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041854/Wurmple_jv2ygb.png",
                 "types": ["Bug"]
             },
             {
-                "dex": "401",
+                "dex": "0401",
                 "name": "Kricketot",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041826/Kricketot_jbsfl7.png",
                 "types": ["Bug"]
@@ -318,19 +318,19 @@
         "paragraph2": "With moves like Rock Slide and Stone Edge, Rock types unleash crushing force, dominating with sheer physical power. They symbolize perseverance, the passage of time, and the stability found in life’s foundations.",
         "pokemon": [
             {
-                "dex": "074",
+                "dex": "0074",
                 "name": "Geodude",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041823/Geodude_cyyzx8.png",
                 "types": ["Rock", "Ground"]
             },
             {
-                "dex": "138",
+                "dex": "0138",
                 "name": "Omanyte",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041837/Omanyte_qc6uvg.png",
                 "types": ["Rock", "Water"]
             },
             {
-                "dex": "246",
+                "dex": "0246",
                 "name": "Larvitar",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041829/Larvitar_hcuskd.png",
                 "types": ["Rock", "Ground"]
@@ -344,19 +344,19 @@
         "paragraph2": "With moves like Shadow Ball and Hex, Ghost types manipulate fear and the unseen to disrupt opponents. They symbolize the thin veil between worlds, the power of the unknown, and the influence of unseen forces.",
         "pokemon": [
             {
-                "dex": "092",
+                "dex": "0092",
                 "name": "Gastly",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041822/Gastly_rvk0wu.png",
                 "types": ["Ghost", "Poison"]
             },
             {
-                "dex": "200",
+                "dex": "0200",
                 "name": "Misdreavus",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041835/Misdreavus_afj3r5.png",
                 "types": ["Ghost"]
             },
             {
-                "dex": "425",
+                "dex": "0425",
                 "name": "Drifloon",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041820/Drifloon_ue4vy1.png",
                 "types": ["Ghost", "Flying"]
@@ -370,19 +370,19 @@
         "paragraph2": "With moves like Dragon Claw and Draco Meteor, Dragon types unleash devastating force, commanding respect and awe. They symbolize the pursuit of greatness, the mysteries of legends, and the boundless potential within.",
         "pokemon": [
             {
-                "dex": "147",
+                "dex": "0147",
                 "name": "Dratini",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041819/Dratini_r7vseu.png",
                 "types": ["Dragon"]
             },
             {
-                "dex": "371",
+                "dex": "0371",
                 "name": "Bagon",
-                "image": "./images/bagon.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041811/Bagon_iaryyn.png",
                 "types": ["Dragon"]
             },
             {
-                "dex": "443",
+                "dex": "0443",
                 "name": "Gible",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041823/Gible_jrkl2l.png",
                 "types": ["Dragon", "Ground"]
@@ -396,19 +396,19 @@
         "paragraph2": "With moves like Dark Pulse and Foul Play, Dark types use underhanded tactics to gain the upper hand. They symbolize adaptability, the blurred lines of morality, and the strength found in embracing one’s true nature.",
         "pokemon": [
             {
-                "dex": "198",
+                "dex": "0198",
                 "name": "Murkrow",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041836/Murkrow_i22xxk.png",
                 "types": ["Dark", "Flying"]
             },
             {
-                "dex": "228",
+                "dex": "0228",
                 "name": "Houndour",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041828/Houndour_acz5zo.png",
                 "types": ["Dark", "Fire"]
             },
             {
-                "dex": "261",
+                "dex": "0261",
                 "name": "Poochyena",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041843/Poochyena_fg47yx.png",
                 "types": ["Dark"]
@@ -422,21 +422,21 @@
         "paragraph2": "With moves like Iron Head and Flash Cannon, Steel types showcase both offensive power and defensive prowess. They represent endurance, innovation, and the unyielding strength found in both nature and human ingenuity.",
         "pokemon": [
             {
-                "dex": "081",
+                "dex": "0081",
                 "name": "Magnemite",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041834/Magnemite_ajee2h.png",
                 "types": ["Electric", "Steel"]
             },
             {
-                "dex": "205",
+                "dex": "0205",
                 "name": "Forretress",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041822/Forretress_c2lv3w.png",
                 "types": ["Bug", "Steel"]
             },
             {
-                "dex": "374",
+                "dex": "0374",
                 "name": "Beldum",
-                "image": "./images/beldum.png",
+                "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041817/Beldum_hjheli.png",
                 "types": ["Steel", "Psychic"]
             }
         ]
@@ -448,19 +448,19 @@
         "paragraph2": "With moves like Moonblast and Dazzling Gleam, Fairy types wield radiant energy to dazzle and defeat foes. They symbolize hope, the beauty of imagination, and the unseen forces that bring light to even the darkest places.",
         "pokemon": [
             {
-                "dex": "035",
+                "dex": "0035",
                 "name": "Clefairy",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041820/Clefairy_wdfn0q.png",
                 "types": ["Fairy"]
             },
             {
-                "dex": "173",
+                "dex": "0173",
                 "name": "Cleffa",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041814/Cleffa_j6trrw.png",
                 "types": ["Fairy"]
             },
             {
-                "dex": "280",
+                "dex": "0280",
                 "name": "Ralts",
                 "image": "https://res.cloudinary.com/de7itmcoo/image/upload/v1739041842/Ralts_yzdrhv.png",
                 "types": ["Psychic", "Fairy"]
