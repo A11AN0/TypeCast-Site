@@ -36,7 +36,8 @@ body {
                 justify-content: center;
                 align-items: center;
                 color: $primary-white;
-                width: fit-content;
+                width: 100%;
+                text-align: center;
                 font-family: "Roboto Mono", sans-serif;
                 background-color: $primary-blue;
                 font-weight: 400;
@@ -66,9 +67,9 @@ body {
         // background-color: $secondary-yellow;
 
         &__noSelection {
+            display: flex;
             width: 100%;
             height: 100%;
-            display: flex;
             justify-content: center;
             align-items: center;
 
@@ -101,42 +102,180 @@ body {
                 }
             }
         }
+
+        &__typeSelection {
+            display: none;
+            width: 100%;
+            height: 100%;
+            min-height: fit-content;
+            justify-content: center;
+            align-items: center;
+
+            &__card {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                height: 100%;
+                min-height: fit-content;
+                justify-content: center;
+                align-items: center;
+                // border: 3px solid $primary-white;
+                border-radius: 10px;
+
+                &__pokemonContainer {
+                    width: 100%;
+                    // height: 45%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                    // background-color: $secondary-blue;
+
+                    &__pokemon {
+                        margin: 5px 5px 10px 5px;
+                        // background-color: $primary-blue;
+                        &__img {
+                            width: 225px;
+                            height: 225px;
+
+                            @media (max-width: 900px) {
+                                weight: 200px;
+                                height: 220px;
+                            }
+                        }
+                        &__types {
+                            display: flex;
+                            justify-content: center;
+                            gap: 5px;
+                            margin-top: 5px;
+
+                            &__type {
+                                padding: 5px 10px;
+                                border-radius: 5px;
+                                color: $primary-white;
+                                font-family: "Roboto Mono", sans-serif;
+                                font-weight: bold;
+                                text-transform: uppercase;
+                                font-size: 12px;
+                            }
+                        }
+
+                        &__dexNo {
+                            margin: 5px;
+                            text-align: center;
+                            color: $primary-white;
+                            font-family: "Roboto Mono", sans-serif;
+                            font-weight: 200;
+                        }
+
+                        &__name {
+                            margin: 5px;
+                            text-align: center;
+                            font-weight: 300;
+                            font-size: 25px;
+                            color: $primary-white;
+                            font-family: "Roboto Mono", sans-serif;
+                        }
+                    }
+                }
+
+                &__textContainer {
+                    width: 100%;
+                    height: 55%;
+                    min-height: fit-content;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                    // background-color: $primary-red;
+
+                    &__paragraph1 {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 10px;
+                        width: 45%;
+                        min-width: 350px;
+                        height: 320px;
+                        border: 3px solid $primary-white;
+                        border-radius: 10px;
+
+                        &__text {
+                            width: 70%;
+                            font-family: "Roboto", sans-serif;
+                            // color: $primary-white;
+                            font-weight: 300;
+                            font-size: 24px;
+                            border-radius: 10px;
+                            margin: 0.2em;
+
+                            @media (max-width: 1380px) {
+                                font-size: 27px;
+                            }
+
+                            @media (max-width: 720px) {
+                                width: 100%;
+                                text-align: center;
+                            }
+
+                            @media (max-width: 480px) {
+                                font-size: 25px;
+                            }
+                        }
+
+                        @media (max-width: 1380px) {
+                            min-width: 90%;
+                        }
+                    }
+
+                    &__paragraph2 {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 10px;
+                        width: 45%;
+                        min-width: 350px;
+                        height: 320px;
+                        border: 3px solid $primary-white;
+                        border-radius: 10px;
+
+                        &__text {
+                            width: 70%;
+                            font-family: "Roboto", sans-serif;
+                            color: $primary-white;
+                            font-weight: 300;
+                            font-size: 24px;
+                            border-radius: 10px;
+                            margin: 0.2em;
+
+                            @media (max-width: 1380px) {
+                                font-size: 27px;
+                            }
+
+                            @media (max-width: 720px) {
+                                width: 100%;
+                                text-align: center;
+                            }
+
+                            @media (max-width: 480px) {
+                                font-size: 25px;
+                            }
+                        }
+
+                        @media (max-width: 1380px) {
+                            min-width: 90%;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
 @media (max-width: 1080px) {
     .types {
         margin-top: 90px;
-
-        &__functional {
-            width: 40%;
-        }
-
-        &__information {
-            width: 60%;
-        }
-    }
-}
-
-@media (max-width: 850px) {
-    .types {
-        margin-top: 80px;
-
-        &__functional {
-            width: 42.5%;
-        }
-
-        &__information {
-            width: 57.5%;
-        }
-    }
-}
-
-@media (max-width: 720px) {
-    .types {
         flex-direction: column;
         justify-content: flex-start;
-        margin-top: 130px;
 
         &__functional {
             min-height: 200px;
@@ -148,6 +287,18 @@ body {
             width: 100%;
             // background-color: $secondary-blue;
         }
+    }
+}
+
+@media (max-width: 850px) {
+    .types {
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 720px) {
+    .types {
+        margin-top: 130px;
     }
 }
 
@@ -185,9 +336,13 @@ $type-colors: (
     padding: 10px;
     scrollbar-width: none;
     -ms-overflow-style: none;
-    border-top: 2px solid transparent;
-    border-bottom: 2px solid transparent;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
     transition: border-color 0.3s ease-in-out;
+}
+
+.types__functional__type-selector__buttons::-webkit-scrollbar {
+    display: none;
 }
 
 .types__functional__type-selector__button {
@@ -222,7 +377,7 @@ $type-colors: (
     transform: scale(1.05);
 }
 
-@media (max-width: 720px) {
+@media (max-width: 1080px) {
     .types__functional__type-selector__buttons {
         margin-top: 1em;
         display: flex;
@@ -234,5 +389,32 @@ $type-colors: (
     .types__functional__type-selector__button {
         min-width: 120px;
         flex-shrink: 0;
+    }
+}
+
+/* Apply background colors based on Pokémon type */
+@each $type, $color in $type-colors {
+    .types__information__typeSelection__card__pokemonContainer__pokemon__types__type--#{$type} {
+        background-color: $color;
+        color: if(lightness($color) > 50, $primary-blue, $primary-white);
+    }
+}
+
+.responsiveTextContainer {
+    @media (min-width: 721px) {
+        display: none;
+    }
+}
+
+.responsiveTextContainer2 {
+    @media (max-width: 720px) {
+        display: none;
+    }
+}
+
+@each $type, $color in $type-colors {
+    .types__information__typeSelection__card__pokemonContainer__pokemon__types__type--#{$type} {
+        background-color: $color;
+        color: if(lightness($color) > 50, $primary-blue, $primary-white);
     }
 }
